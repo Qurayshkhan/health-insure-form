@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .responsive-style {
+
+        align-items: start !important;
+    }
+
+    .responsive-style input {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .multiStepForm input[type="checkbox"] {
+        width: 25px;
+    }
+}

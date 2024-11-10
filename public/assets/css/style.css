@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    font-size: 20px !important;
+}
+
+.text-success {
+    color: green;
+}
+
+.w-200px {
+    width: 200px !important;
+}
+
+.text-white {
+    color: #fcfcfc;
+}
+
+.c-btn-primary {
+    background-color: #00ab8e;
+    color: #fcfcfc;
+}
+
+.c-btn-primary:hover {
+    background-color: #00ab8e;
+    color: #fcfcfc;
+}
+
+.parent-section {
+    position: relative;
+}
+
+.parent-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.navigation-btn {
+    position: absolute;
+    bottom: 20%;
+    right: 36%;
+    z-index: 2;
+}
+
+
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.step-1-bg {
+    background-image: url('/assets/images/step-1.jpg');
+}
+
+.step-2-bg {
+    background-image: url('/assets/images/step-2.jpg');
+}
+
+.step-3-bg {
+    background-image: url('/assets/images/step-3.jpg');
+}
+
+.step-4-bg {
+    background-image: url('/assets/images/step-4.jpg');
+}
+
+.step-5-bg {
+    background-image: url('/assets/images/step-5.jpg');
+}
+
+.step-6-bg {
+    background-image: url('/assets/images/step-6.jpg');
+}
+
+.step-7-bg {
+    background-image: url('/assets/images/step-7.jpg');
+}
+
+.step-8-bg {
+    background-image: url('/assets/images/step-8.jpg');
+}
+
+.bg-onboard {
+    background-image: url('/assets/images/Onboarding.jpg');
+}
+
+.bg-onboard::before,
+.step-1-bg::before,
+.step-2-bg::before,
+.step-3-bg::before,
+.step-4-bg::before,
+.step-5-bg::before,
+.step-6-bg::before,
+.step-7-bg::before,
+.step-8-bg::before,
+.bg-onboard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.step-1-bg,
+.step-2-bg,
+.step-3-bg,
+.step-4-bg,
+.step-5-bg,
+.step-6-bg,
+.step-7-bg,
+.step-8-bg,
+.bg-onboard * {
+    position: relative;
+    z-index: 2;
+}
+
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+}
+
+input:focus-visible {
+    border: 1px solid #00ab8e;
+    box-shadow: none;
+    outline: none;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* .tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 400ms ease-in, transform 400ms ease-in;
+}
+
+.tab.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tab.hide {
+    opacity: 0;
+    transform: translateY(-100%);
+    pointer-events: none;
+} */
+
+
+.tab-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.tab {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in, top 1s ease-in;
+}
+
+.tab.show {
+    top: 0;
+    opacity: 1;
+}
+
+.tab.hide {
+    top: 100%;
+    opacity: 0;
+}
+
+button {
+    background-color: #00ab8e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    transition: all 0.5s ease-in;
+}
+
+.step.active {
+    opacity: 1;
+    display: block;
+}
+
+.step.finish {
+    background-color: #00ab8e;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-btn {
+        bottom: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .fs-4 {
+        font-size: 12px !important;
+    }
+
+    .font-normal {
+        font-size: 16px !important;
+        text-align: center;
+    }
+}
