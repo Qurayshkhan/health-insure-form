@@ -216,8 +216,8 @@
                         </td>
                         <td class="text-center" class="word-wrap" class="word-wrap">
                             Fax: +4922197590559
-                            E-Mail: info@kvdoc.com
-                            www.kvdoc.com
+                            {{-- E-Mail: info@kvdoc.com
+                            www.kvdoc.com --}}
                         </td>
                     </tr>
                 </table>
