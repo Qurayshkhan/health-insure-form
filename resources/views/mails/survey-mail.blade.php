@@ -121,8 +121,9 @@
                     von 3 Tagen erfolgt</p>
                 <p>Die VVM- Verwaltungs und Versicherungsmakler GmbH verpflichtet sich, das bestmögliche Angebot für
                     mich zu ermitteln.
-                    Ich habe die Datenschutzbestimmungen und die Widerrufsbelehrung auf <a
-                        href="mailto:www.kvdoc.com">www.kvdoc.com</a> zur Kenntnis
+                    Ich habe die Datenschutzbestimmungen und die Widerrufsbelehrung auf
+                    {{-- <a href="mailto:www.kvdoc.com">www.kvdoc.com</a>  --}}
+                    zur Kenntnis
                     genommen.</p>
             </section>
             <section class="form-values">
