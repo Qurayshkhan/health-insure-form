@@ -2,7 +2,7 @@
 @section('content')
     <form class="h-100" id="regForm" action="{{ route('pdfStore') }}" method="POST">
         @csrf
-        <div class="h-100 w-100 parent-section tab-container">
+        <div class="h-100 w-100 parent-section tab-container d-flex flex-column justify-content-center align-items-center">
             <section class="tab h-100 w-100 background bg-onboard">
                 <div class="d-flex flex-column justify-content-center align-items-center h-100">
                     @if (Session::has('success'))
@@ -281,11 +281,14 @@
                     </div>
                 </div>
             </section>
-            <div style="overflow:auto;" class="navigation-btn">
-                <div style="float:right;" class="navigation-btn-responsive">
-                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Vorherige</button>
-                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Nächste
-                    </button>
+            <div class="position-relative h-100 w-100">
+                <div class="navigation-btn w-100">
+                    <div
+                        class="navigation-btn-responsive w-100 text-center d-flex justify-content-center align-items-center gap-2">
+                        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Vorherige</button>
+                        <button type="button" id="nextBtn" onclick="nextPrev(1)">Nächste
+                        </button>
+                    </div>
                 </div>
             </div>
             <div style="text-align:center;margin-top:40px;" class="d-none">
