@@ -16,8 +16,6 @@ function showTab(n) {
         document.getElementById("prevBtn").style.display = "inline";
     }
     if (n == (x.length - 1)) {
-        console.log("n :", n);
-        console.log("x length", x.length);
         const nextBtn = document.getElementById("nextBtn");
         nextBtn.innerHTML = "Einreichen";
         setTimeout(() => {
@@ -36,12 +34,8 @@ function showTab(n) {
 }
 function nextPrev(n) {
     var x = document.getElementsByClassName("tab");
-    console.log("🚀 ~ nextPrev ~ x:", x.length);
-    console.log("🚀 ~ nextPrev ~ n:", n);
     if (n == 1 && !validateForm()) return false;
     currentTab += n;
-    console.log("🚀 ~ nextPrev ~ currentTab:", currentTab)
-
     if (currentTab >= x.length) {
         // const nextBtn = document.getElementById("nextBtn");
         // nextBtn.setAttribute("type", "submit");

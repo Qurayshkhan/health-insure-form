@@ -282,7 +282,7 @@
                 </div>
             </section>
             <div style="overflow:auto;" class="navigation-btn">
-                <div style="float:right;">
+                <div style="float:right;" class="navigation-btn-responsive">
                     <button type="button" id="prevBtn" onclick="nextPrev(-1)">Vorherige</button>
                     <button type="button" id="nextBtn" onclick="nextPrev(1)">Nächste
                     </button>
