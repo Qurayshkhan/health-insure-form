@@ -216,8 +216,8 @@
                         </td>
                         <td class="text-center" class="word-wrap" class="word-wrap">
                             <span>Fax: +4922197590559</span>
-                            <span>E-Mail: info@kvdoc.com</span>
-                            <span>www.kvdoc.com</span>
+                            {{-- <span>E-Mail: info@kvdoc.com</span>
+                            <span>www.kvdoc.com</span> --}}
                         </td>
                     </tr>
                 </table>
