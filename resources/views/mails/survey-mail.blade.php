@@ -215,9 +215,9 @@
                                 06449 Aschersleben</p>
                         </td>
                         <td class="text-center" class="word-wrap" class="word-wrap">
-                            Fax: +4922197590559
-                            {{-- E-Mail: info@kvdoc.com
-                            www.kvdoc.com --}}
+                            <span>Fax: +4922197590559</span>
+                            <span>E-Mail: info@kvdoc.com</span>
+                            <span>www.kvdoc.com</span>
                         </td>
                     </tr>
                 </table>
