@@ -18,6 +18,7 @@ function showTab(n) {
     if (n == (x.length - 1)) {
         const nextBtn = document.getElementById("nextBtn");
         nextBtn.innerHTML = "Einreichen";
+        document.getElementById("prevBtn").style.display = "none";
         setTimeout(() => {
             nextBtn.setAttribute("type", "submit");
         }, 2000);

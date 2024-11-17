@@ -250,6 +250,7 @@ button:hover {
 @media screen and (max-width: 600px) {
     .navigation-btn {
         /* bottom: 0; */
+        bottom: 10%;
         right: 0;
         text-align: center;
         padding: 0px 0.5rem;

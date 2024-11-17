@@ -88,7 +88,7 @@
             </section>
             <section class="tab h-100 w-100 background step-4-bg">
                 <div class="d-flex flex-column justify-content-center align-items-center h-100">
-                    <h2 class="font-normal text-white">Wann wurdest du geboren?
+                    <h2 class="font-normal text-white">Wann wurden Sie geboren?
                     </h2>
                     <div class="container mt-3">
                         <div class="row">
@@ -214,12 +214,12 @@
                 <div class="d-flex flex-column justify-content-center align-items-center h-100">
                     <h2 class="font-normal text-white">
                         <div class="container">
-                            Zur Berechnung und Beantragung Ihrer Beitragsermäßigung wenden Sie sich bitte an Ihre Gesundheit
-                            Versicherungsgesellschaft, wir brauchen Ihre
+                            Um Ihre Beitragsreduzierung bei Ihrer Krankenkasse zu berechnen, benötigen wir Ihre
                             Unterschrift.
-                            Hiermit beantrage ich ({Vorname, Nachname} aus Schritt 6. Hier Namen einfügen) um
-                            Berechnen Sie meine Beitragsreduzierung für meine
-                            Krankenversicherungsbeitrag zu zahlen und mir diese Berechnung zuzusenden.?
+                            Hiermit beantrage ich, bitte kopieren Sie die {Vorname, Nachname} aus Schritt 6. Geben Sie hier
+                            den Namen ein
+                            meine Beitragsreduzierung für meinen Krankenkassenbeitrag zu berechnen und diese
+                            Berechnung mir zukommen zu lassen
                         </div>
                     </h2>
                     <div class="container mt-3">
@@ -245,7 +245,8 @@
             <section class="tab h-100 w-100 background step-8-bg">
                 <div class="d-flex flex-column justify-content-center align-items-center h-100">
                     <div class="container">
-                        <h2 class="font-normal text-white">Erledigt! Ihre Ersparnis durch den Beitrag
+                        <h2 class="font-normal text-white"> <span class="text-lg-left">Fertig!</span> Ihre Ersparnis durch
+                            den Beitrag
                             Die Ermäßigung beträgt bis zu 350€ pro Monat. Auf der nächsten Seite können Sie Ihre Anfrage
                             stellen
                             Beitragsreduzierung
@@ -258,15 +259,15 @@
                     <div class="container">
 
                         <p>
-                            <label for="" class="text-light">Wohin sollen wir Ihnen die Berechnung Ihres senden?
-                                Person
-                                Beitragskürzung?</label>
+                            <label for="" class="text-light">Wohin sollen wir Ihnen die Berechnung Ihrer
+                                individuellen Beitragsreduzierung senden?
+                                E-Mail ….</label>
                             <input type="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein"
                                 oninput="this.className = ''" name="email" required>
                         </p>
                         <p>
-                            <label for="" class="text-light">WICHTIG! Ihre aktuelle Telefonnummer für
-                                Anfragen:
+                            <label for="" class="text-light">WICHTIG! Ihre aktuelle Telefonnummer für Rückfragen:
+                                Telefon……
                             </label>
                             <input type="text" placeholder="Telefonnummer" oninput="this.className = ''"
                                 name="phone_number" required>
@@ -274,9 +275,9 @@
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" name="agree_terms" id="aggreeTerms"
                                 required>
-                            <label class="form-check-label text-light" for="aggreeTerms">Ich habe das gelesen
-                                Information
-                                zum Datenschutz und stimme zu.</label>
+                            <label class="form-check-label text-light" for="aggreeTerms">Ich habe die Informationen zum
+                                Datenschutz
+                                zur Kenntnis genommen und bin einverstanden.</label>
                         </div>
                     </div>
                 </div>
